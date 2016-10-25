@@ -1998,7 +1998,10 @@ section.reviews {
   section.reviews .about {
     position: absolute;
     height: 53.3%;
-    background: url(https://pp.vk.me/c633130/v633130547/17b8c/_VJEDCNCgsY.jpg) no-repeat top right;
+    background-image: url(https://pp.vk.me/c633130/v633130547/17b8c/_VJEDCNCgsY.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-color: grey;
     background-size: cover;
     right: 18vw;
     bottom: 0;
